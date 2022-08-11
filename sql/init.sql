@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS todoList (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(150) NOT NULL
+);
+
+INSERT INTO todoList ( name ) VALUES ('Example');
