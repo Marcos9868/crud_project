@@ -1,4 +1,4 @@
-import { AiOutlineEdit, AiOutlineDelete } from "react-icons/ai";
+import { AiOutlineEdit, AiOutlineDelete } from 'react-icons/ai'
 
 const Todo = ({ todoList }) => {
   return (
@@ -8,14 +8,10 @@ const Todo = ({ todoList }) => {
           <div className="todo">
             <p>{todo.name}</p>
             <button>
-              <AiOutlineEdit>
-
-              </AiOutlineEdit>
+              <AiOutlineEdit size={20} background={'darkgreen'} color={'#64697b'}/>
             </button>
             <button>
-              <AiOutlineDelete>
-                
-              </AiOutlineDelete>
+              <AiOutlineDelete size={20} color={'#64697b'}/>
             </button>
           </div>
         )
